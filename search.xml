@@ -40,17 +40,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>配列变更</title>
-    <url>/posts/38310/</url>
-    <content><![CDATA[<blockquote><p>旧版本61才会出现这个问题，63和64板子刷新mokey专用固件，这个问题将不会出现<br>改键之前，请按照如下操作调整成自己键盘适用的即可<br>*更改完配列才能修改按键，否则按键功能不能应用到键盘上</p>
-</blockquote>
-
-<h3 id="首先打开软件界面"><a href="#首先打开软件界面" class="headerlink" title="首先打开软件界面"></a>首先打开软件界面</h3><img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN01eCFYZV1DLe3DU01Pq_!!2209611180200.jpg">
-
-<h3 id="标准61"><a href="#标准61" class="headerlink" title="标准61"></a>标准61</h3><img src="https://img.alicdn.com/imgextra/i1/2209611180200/O1CN01vItlsA1DLe3JoHcvx_!!2209611180200.jpg">
-]]></content>
-  </entry>
-  <entry>
     <title>关于外壳适配的问题</title>
     <url>/posts/10976/</url>
     <content><![CDATA[<blockquote><p>请尽量购买GH60系列配套使用的外壳及零配件，板子严格按照GH60标准开孔和尺寸制作,PCB尺寸：285mm×95mm<br>外壳螺丝柱建议选择比较细的螺丝柱，由于板子是正装设计，一面过粗的螺丝柱接触到热插拔轴座引脚带来的按键串联问题<br>若已经购买过粗的螺丝柱外壳，请使用电工胶布为其绝缘，此问题带来的按键串联并非PCB质量问题，为选用的配件不匹配导致。</p>
@@ -60,6 +49,17 @@
 <img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN0172sx1T1DLe3EAQghQ_!!2209611180200.jpg">
 
 <h3 id="不推荐塑料带加强筋外壳"><a href="#不推荐塑料带加强筋外壳" class="headerlink" title="不推荐塑料带加强筋外壳"></a>不推荐塑料带加强筋外壳</h3><p>如果是下图塑料带加强筋外壳，需要着重注意，加强筋部分容易损伤PCB底部的元件，需要降低加强筋高度才可以拧螺丝，如果因此原因导致元件脱落，不属于保修范围。<br><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01De6Ynx1DLe3JntOYN_!!2209611180200.jpg"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>配列变更</title>
+    <url>/posts/38310/</url>
+    <content><![CDATA[<blockquote><p>旧版本61才会出现这个问题，63和64板子刷新mokey专用固件，这个问题将不会出现<br>改键之前，请按照如下操作调整成自己键盘适用的即可<br>*更改完配列才能修改按键，否则按键功能不能应用到键盘上</p>
+</blockquote>
+
+<h3 id="首先打开软件界面"><a href="#首先打开软件界面" class="headerlink" title="首先打开软件界面"></a>首先打开软件界面</h3><img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN01eCFYZV1DLe3DU01Pq_!!2209611180200.jpg">
+
+<h3 id="标准61"><a href="#标准61" class="headerlink" title="标准61"></a>标准61</h3><img src="https://img.alicdn.com/imgextra/i1/2209611180200/O1CN01vItlsA1DLe3JoHcvx_!!2209611180200.jpg">
 ]]></content>
   </entry>
   <entry>
@@ -178,6 +178,14 @@
 </div>]]></content>
   </entry>
   <entry>
+    <title>【必看】按键设置方法</title>
+    <url>/posts/17032/</url>
+    <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=687482097&amp;bvid=BV1XU4y167n5&amp;cid=816485353&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+]]></content>
+  </entry>
+  <entry>
     <title>【必看】VIA识别方法（驱动安装）</title>
     <url>/posts/55414/</url>
     <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
@@ -203,14 +211,6 @@
 <p>关闭 <a href="">用户账户控制设置</a> 方法（以Win10为例）：<br><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01iYWs421DLe3Ndkgd3_!!2209611180200.jpg"></p>
 <blockquote><p>WinXP系统不能使用VIA，必须使用Win7及以上64位操作系统，32位操作系统会报错，必须安装驱动才可识别VIA，Mokey全系列产品均可以直接识别并进入VIA界面，无需JSON引导文件。</p>
 </blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>【必看】按键设置方法</title>
-    <url>/posts/17032/</url>
-    <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
-    <iframe src="//player.bilibili.com/player.html?aid=687482097&amp;bvid=BV1XU4y167n5&amp;cid=816485353&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
-</div>
 ]]></content>
   </entry>
   <entry>
