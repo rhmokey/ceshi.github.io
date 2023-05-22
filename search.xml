@@ -178,14 +178,6 @@
 </div>]]></content>
   </entry>
   <entry>
-    <title>【必看】按键设置方法</title>
-    <url>/posts/17032/</url>
-    <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
-    <iframe src="//player.bilibili.com/player.html?aid=687482097&amp;bvid=BV1XU4y167n5&amp;cid=816485353&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
-</div>
-]]></content>
-  </entry>
-  <entry>
     <title>【必看】VIA识别方法（驱动安装）</title>
     <url>/posts/55414/</url>
     <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
@@ -211,6 +203,14 @@
 <p>关闭 <a href="">用户账户控制设置</a> 方法（以Win10为例）：<br><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01iYWs421DLe3Ndkgd3_!!2209611180200.jpg"></p>
 <blockquote><p>WinXP系统不能使用VIA，必须使用Win7及以上64位操作系统，32位操作系统会报错，必须安装驱动才可识别VIA，Mokey全系列产品均可以直接识别并进入VIA界面，无需JSON引导文件。</p>
 </blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>【必看】按键设置方法</title>
+    <url>/posts/17032/</url>
+    <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=687482097&amp;bvid=BV1XU4y167n5&amp;cid=816485353&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
 ]]></content>
   </entry>
   <entry>
