@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>【选看】恢复芯片EEPROM方法</title>
+    <url>/posts/55341/</url>
+    <content><![CDATA[<blockquote><p>如果觉得键盘有任何异常，均可用此办法把芯片完全擦除后刷入新的固件，将本文所有步骤进行完毕后会完成擦除和刷入新的固件</p>
+</blockquote>
+<h3 id="第一步：先下载一个板子对应的固件"><a href="#第一步：先下载一个板子对应的固件" class="headerlink" title="第一步：先下载一个板子对应的固件"></a>第一步：先下载一个板子对应的固件</h3><p><a href="../../firmware">点此下载</a></p>
+<h3 id="第二步：下载QMK工具箱"><a href="#第二步：下载QMK工具箱" class="headerlink" title="第二步：下载QMK工具箱"></a>第二步：下载QMK工具箱</h3><p><a href="../../download">点此下载</a></p>
+<h3 id="第三步：下载刷机必备的芯片驱动，否则电脑不认识它"><a href="#第三步：下载刷机必备的芯片驱动，否则电脑不认识它" class="headerlink" title="第三步：下载刷机必备的芯片驱动，否则电脑不认识它"></a>第三步：下载刷机必备的芯片驱动，否则电脑不认识它</h3><p><a href="https://mokey.lanzouw.com/iw0aWpbze5a">点此下载</a></p>
+<h3 id="第四步：点击-“OPEN”将固件添加在这里"><a href="#第四步：点击-“OPEN”将固件添加在这里" class="headerlink" title="第四步：点击 “OPEN”将固件添加在这里"></a>第四步：点击 “OPEN”将固件添加在这里</h3><img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN017Tn5qy1DLe3HUmpmm_!!2209611180200.jpg">
+
+<h3 id="第五步：按下键盘背面的金属按钮（在A键旁边）"><a href="#第五步：按下键盘背面的金属按钮（在A键旁边）" class="headerlink" title="第五步：按下键盘背面的金属按钮（在A键旁边）"></a>第五步：按下键盘背面的金属按钮（在A键旁边）</h3><img src="https://img.alicdn.com/imgextra/i1/2209611180200/O1CN01C2HpN81DLe3G5RISW_!!2209611180200.jpg">
+
+<h3 id="第六步：QMK界面显示这串黄字说明对了"><a href="#第六步：QMK界面显示这串黄字说明对了" class="headerlink" title="第六步：QMK界面显示这串黄字说明对了"></a>第六步：QMK界面显示这串黄字说明对了</h3><blockquote><p><a href="">！Windows第一次刷固件必须安装驱动！</a><br><a href="">！Windows第一次刷固件必须安装驱动！</a><br><a href="">！Windows第一次刷固件必须安装驱动！</a></p>
+</blockquote>
+<blockquote><p>显示“no device present”请返回第三步重新安装，如下图</p>
+</blockquote>
+<img src="https://img.alicdn.com/imgextra/i4/2209611180200/O1CN01c6wyie1DLe3HUkLuh_!!2209611180200.jpg">
+
+<blockquote><p>如果只显示下面所示的” DFU device connected:Atmel Corp. ATmega32U4… “说明可以继续</p>
+</blockquote>
+<img src="https://img.alicdn.com/imgextra/i1/2209611180200/O1CN01cfJ2Lh1DLe3HUkp0s_!!2209611180200.jpg">
+
+<h3 id="第七步：点击QMK左下角的-“Clear-EEPROM”"><a href="#第七步：点击QMK左下角的-“Clear-EEPROM”" class="headerlink" title="第七步：点击QMK左下角的 “Clear EEPROM”"></a>第七步：点击QMK左下角的 “Clear EEPROM”</h3><img src="https://img.alicdn.com/imgextra/i4/2209611180200/O1CN01MRbZeW1DLe3C4hZrI_!!2209611180200.jpg">
+
+<h3 id="第八步：QMK会有如下提示"><a href="#第八步：QMK会有如下提示" class="headerlink" title="第八步：QMK会有如下提示"></a>第八步：QMK会有如下提示</h3><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01qzXEVL1DLe3HUjoeF_!!2209611180200.jpg">
+
+<h3 id="第九步：出现上述提示后点击右上角-“Flash”"><a href="#第九步：出现上述提示后点击右上角-“Flash”" class="headerlink" title="第九步：出现上述提示后点击右上角 “Flash”"></a>第九步：出现上述提示后点击右上角 “Flash”</h3><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01SHNPbI1DLe3NgtmHp_!!2209611180200.jpg">
+
+<h3 id="第十步：出现-“Validating-Success”-说明刷好了"><a href="#第十步：出现-“Validating-Success”-说明刷好了" class="headerlink" title="第十步：出现 “Validating.. Success” 说明刷好了"></a>第十步：出现 “Validating.. Success” 说明刷好了</h3><img src="https://img.alicdn.com/imgextra/i4/2209611180200/O1CN015xwLQE1DLe3G5Q9m7_!!2209611180200.jpg">
+]]></content>
+  </entry>
+  <entry>
+    <title>宏设置</title>
+    <url>/posts/43929/</url>
+    <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=644941147&amp;bvid=BV1EY4y1u7Rm&amp;cid=816485731&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+]]></content>
+  </entry>
+  <entry>
+    <title>配列变更</title>
+    <url>/posts/38310/</url>
+    <content><![CDATA[<blockquote><p>旧版本61才会出现这个问题，63和64板子刷新mokey专用固件，这个问题将不会出现<br>改键之前，请按照如下操作调整成自己键盘适用的即可<br>*更改完配列才能修改按键，否则按键功能不能应用到键盘上</p>
+</blockquote>
+
+<h3 id="首先打开软件界面"><a href="#首先打开软件界面" class="headerlink" title="首先打开软件界面"></a>首先打开软件界面</h3><img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN01eCFYZV1DLe3DU01Pq_!!2209611180200.jpg">
+
+<h3 id="标准61"><a href="#标准61" class="headerlink" title="标准61"></a>标准61</h3><img src="https://img.alicdn.com/imgextra/i1/2209611180200/O1CN01vItlsA1DLe3JoHcvx_!!2209611180200.jpg">
+]]></content>
+  </entry>
+  <entry>
+    <title>关于外壳适配的问题</title>
+    <url>/posts/10976/</url>
+    <content><![CDATA[<blockquote><p>请尽量购买GH60系列配套使用的外壳及零配件，板子严格按照GH60标准开孔和尺寸制作,PCB尺寸：285mm×95mm<br>外壳螺丝柱建议选择比较细的螺丝柱，由于板子是正装设计，一面过粗的螺丝柱接触到热插拔轴座引脚带来的按键串联问题<br>若已经购买过粗的螺丝柱外壳，请使用电工胶布为其绝缘，此问题带来的按键串联并非PCB质量问题，为选用的配件不匹配导致。</p>
+</blockquote>
+
+<img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01WCRtrE1DLe3DThcmH_!!2209611180200.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN0172sx1T1DLe3EAQghQ_!!2209611180200.jpg">
+
+<h3 id="不推荐塑料带加强筋外壳"><a href="#不推荐塑料带加强筋外壳" class="headerlink" title="不推荐塑料带加强筋外壳"></a>不推荐塑料带加强筋外壳</h3><p>如果是下图塑料带加强筋外壳，需要着重注意，加强筋部分容易损伤PCB底部的元件，需要降低加强筋高度才可以拧螺丝，如果因此原因导致元件脱落，不属于保修范围。<br><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01De6Ynx1DLe3JntOYN_!!2209611180200.jpg"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>【必看】使用前请先看此文档，本文是目录型的，尤其是对刚入手客制化键盘的客户特别有帮助!</title>
+    <url>/posts/33833/</url>
+    <content><![CDATA[<blockquote><p>感谢您使用我们的产品，如果您是初次入手客制化键盘，这篇目录目录型的教程将会对您了解本款产品有很大帮助，按照顺序看完也不会觉得无从下手了，希望您能耐心看完</p>
+</blockquote>
+
+<h3 id="第一步：测试"><a href="#第一步：测试" class="headerlink" title="第一步：测试"></a>第一步：测试</h3><p>1：包着板子的黑色塑胶袋是 <strong>防静电</strong> 的，希望您可以在测试的时候垫着它来测试，以免静电对PCB造成损坏，虽然这是不常见的。</p>
+<p>2：然后就可以把PCB连接上电脑，发出前最后一步就是测试，<strong>我们会刷入一个基本的固件，测试按键触发正常，RGB灯工作正常，一切检查无误后才会给您发货</strong>，不过快递有时候很暴力，怕路上有所闪失，还是收到货后测试一下为好，您可以打开一个键盘按键测试网站 <a href="https://keyboard.bmcx.com/">点击进入</a> (或者进入VIA测试)，接着最好从PCB背面用 <strong>镊子</strong> 通过短接热插拔引脚的方式进行按键触发测试（如下图）。</p>
+<ul>
+<li><p><strong>热插拔轴座我们是不会插轴测试的！因为会留下使用痕迹，如果您最后发现是轴座自身的问题，希望不要怪罪于我们，因为热插拔这个产品不是我们生产的，不插轴有时候不知道它的好坏，自开卖以来，这个元件坏了的概率是几万分之一！不过不要担心，如果是轴座本身有质量问题（其实是凯华厂的问题）我们也负责来回邮费为您退换（相当于我们替凯华厂背锅了），前提是不要安装！因为安装过的PCB会有拧螺丝的痕迹，这样就只能维修了，我们不收二手板子，也不会售卖二手板子，只希望您可以在安装前测试而已，谢谢！</strong></p>
+</li>
+<li><p><strong>需要说明的是,最好从PCB背面进行测试，正面的话可能会弄坏热插拔轴座</strong></p>
+</li>
+</ul>
+<img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01VU178v1DLe3FzdBQr_!!2209611180200.jpg">
+
+<p>如果按键都触发了（对不上号也没事，因为出厂基本固件不含<strong>FN</strong>这样的功能按键），那么恭喜您，您收到的产品是没有问题的，可以进行下面的步骤了，如果有不触发的情况，请及时联系客服，我们会为您妥善处理 <strong>（即收到货有产品质量问题并且是非人为导致的，只要没有安装过，可退可换！寄回的邮费我们会以，您先垫付，我们再将邮费补还给您的方式进行，解决您的售后之忧，我们负责四通一达费用，顺丰不负责，产品利薄，望请理解！）</strong></p>
+<h3 id="第二步：下载客制化键盘必备的软件"><a href="#第二步：下载客制化键盘必备的软件" class="headerlink" title="第二步：下载客制化键盘必备的软件"></a>第二步：下载客制化键盘必备的软件</h3><blockquote><p>只要下载下来的是 <a href="">.rar</a> 格式的压缩包，都是需要解压后再使用的，直接打开压缩包是没用的，需要解压！</p>
+</blockquote>
+<p><strong>VIA改键软件，修改按键设置用的，俗称“驱动”</strong><br>您可以根据自己的系统下载需要的版本，除 <strong>Mokey中文版</strong> 是rar压缩包的，解压后直接可以使用，其他都是需要安装后再使用。<br><img src="https://img.alicdn.com/imgextra/i4/2209611180200/O1CN0104OKy01DLe3Fza1zm_!!2209611180200.gif"></p>
+<blockquote><p><strong>VIA网页版特点</strong>：不用安装，记住网址随时使用</p>
+<ul>
+<li><a href="https://usevia.app/#/">点击进入</a></li>
+</ul>
+</blockquote>
+<blockquote><p><strong>新版特点</strong>：属于网页版，即便安装在电脑上，断网不可使用，但可直接进入软件界面</p>
+<ul>
+<li><a href="https://github.com/the-via/releases/releases/download/v3.0.0/via-3.0.0-win.exe">英文原版-Win-3.0</a></li>
+<li><a href="https://github.com/the-via/releases/releases/download/v3.0.0/via-3.0.0-mac.dmg">英文原版-Mac-3.0</a></li>
+</ul>
+</blockquote>
+<blockquote><p><strong>旧版特点</strong>：</p>
+<ul>
+<li>新安装的：需要导入JSON识别文件后，才可以进入软件界面，不受断网影响，有中文</li>
+<li>以前安装过VIA并可直接进入的：那依然还可以下载使用，要是不能直接识别进入，原因可查看下方视频，并使用上方新版</li>
+<li><a href="https://mokey.lanzouw.com/iKYPUztfu4d">Mokey中文版-Win-1.3.1</a></li>
+<li><a href="https://mokey.lanzouw.com/ih2jUpbz35e">英文原版-Win-1.3.1</a></li>
+<li><a href="https://mokey.lanzouw.com/i93afpw45vc">Mac英文版</a></li>
+<li>JSON识别文件 <a href="https://mokey.lanzouw.com/ioXSl0c1h6xa">点击下载</a></li>
+</ul>
+</blockquote>
+<blockquote><p>新版与旧版的具体区别可以点击<a href="https://www.bilibili.com/video/BV1Fe4y187dX/">此视频</a>了解，可自行选择上述三种方法使用</p>
+</blockquote>
+<p>曾有很多次客户问我为什么软件打不开，我一看原来是从压缩包里打开的软件，那是不行的，因为支持它运行的其他文件还在压缩包里，需要您将压缩包的内容全部解压到您的电脑上，之后再打开软件使用，这时候您可能需要先下载一个RAR解压缩软件，解压后再打开中文版 <a href="https://www.winrar.com.cn/">RAR解压缩软件点此下载</a></p>
+<p><strong>VIA识别驱动</strong><br><em>注：以下内容，只针对1.3.1版本(旧版)，新版VIA不受此影响</em><br>如果VIA下载好了，连接上电脑以后VIA总是停留在识别界面，那说明您的电脑上<strong>没有PCB芯片的驱动</strong>，需要您手动安装一下才能进入VIA软件</p>
+<ul>
+<li><a href="https://mokey.lanzouw.com/iw0aWpbze5a">VIA识别驱动点此下载</a><br>同样，它对您是一个全新的东西，您需要学习它如何才能被正确的安装 <a href="../../posts/55414/index.html">这是VIA识别驱动安装教程</a> ，里面包含详细的文字说明和视频，相信您在这里不会花费太多时间。</li>
+<li><strong>首次刷入固件也需要安装驱动，否则无法刷机</strong></li>
+</ul>
+<h3 id="接下来您应该可以顺利的进入VIA界面了"><a href="#接下来您应该可以顺利的进入VIA界面了" class="headerlink" title="接下来您应该可以顺利的进入VIA界面了"></a>接下来您应该可以顺利的进入VIA界面了</h3><p>进入VIA软件以后，如果您有基础或者之前使用过，那么您可以熟练的上手操作，但要是您第一次使用VIA，肯定会觉得无从下手，那么您需要这个教程来帮助您了 <a href="../../posts/56583/index.html">VIA软件使用方法</a> 它是一个系列视频的讲解，如果您能耐心看完，那么您将很快学会VIA软件的所有操作。</p>
+<h3 id="以上VIA基础操作了解后就可以进行组装"><a href="#以上VIA基础操作了解后就可以进行组装" class="headerlink" title="以上VIA基础操作了解后就可以进行组装"></a>以上VIA基础操作了解后就可以进行组装</h3><ul>
+<li>请在组装前务必检查轴体针脚是否矫正，如没有矫正就进行安装的话有可能会造成下图的情况，这种情况需要自费维修（下图为因轴体针脚没有矫正进行强行安装，最终导致轴体针脚把热插拔轴座连同焊盘一同顶掉的案例）<img src="https://img.alicdn.com/imgextra/i1/2209611180200/O1CN017LmLpt1DLe3DECCGZ_!!2209611180200.jpg"></li>
+</ul>
+<h3 id="如果您耐心看完《VIA软件使用方法》，接下来的教程应该是不用看的，不过还是在这里赘述一下吧"><a href="#如果您耐心看完《VIA软件使用方法》，接下来的教程应该是不用看的，不过还是在这里赘述一下吧" class="headerlink" title="如果您耐心看完《VIA软件使用方法》，接下来的教程应该是不用看的，不过还是在这里赘述一下吧"></a>如果您耐心看完《VIA软件使用方法》，接下来的教程应该是不用看的，不过还是在这里赘述一下吧</h3><ul>
+<li>如果VIA里显示的配列跟您手上PCB的配列有不符合的情况请看 <a href="../../posts/38310/index.html">这个教程</a></li>
+<li>设置按键的方法请看 <a href="../../posts/17032/index.html">这个教程</a></li>
+<li>需要设置FN功能按键请看 <a href="../../posts/37564/index.html">这个教程</a></li>
+<li>如何调整灯光效果请看 <a href="../../posts/61522/index.html">这个教程</a></li>
+<li>宏设置/组合键设置方法请看 <a href="../../posts/43929/index.html">这个教程</a></li>
+<li>设置了按键肯定要保存，请看 <a href="../../posts/59222/index.html">这个教程</a></li>
+<li>因为我们的产品有<strong>售后服务</strong>，当然就会涉及到功能的升级，像手机升级系统一样，是在不断更新的，所以您需要学会如何给自己的PCB更新固件，那么您需要 <a href="../../posts/15924/index.html">这个教程</a> 来了解如何更新键盘固件</li>
+</ul>
+<h3 id="本网站其他您可能需要了解的地方"><a href="#本网站其他您可能需要了解的地方" class="headerlink" title="本网站其他您可能需要了解的地方"></a>本网站其他您可能需要了解的地方</h3><ul>
+<li>更新的固件您可以在 <a href="../../60gj/index.html">这里</a>下载，同样您也可以直接点击右上角的 <a href="../../60gj/index.html">固件下载</a>获得新固件，也可以加QQ群了解我们最新的产品研发进展和固件更新情况，最新的进展不用提问，都会写在群公告里，QQ群：104496163（此群会定期清理半年不发言的人），纯售后群：201196735（不清人）</li>
+<li><strong>我们是真实的在做售后，不像某些同行，板子客户收到就有问题，还不管售后</strong><br>有些特别典型的案例都会集中放在 <a href="../../mokey">售后案例</a> 里，您可以直观的感受到我们在用心做售后</li>
+</ul>
+<blockquote><p>感谢您耐心的看完本篇目录，希望本篇目录对您有所帮助。</p>
+</blockquote>
+
+
+
+
+
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>【必看】VIA软件使用方法（视频）</title>
+    <url>/posts/56583/</url>
+    <content><![CDATA[<blockquote><p>VIA软件版本变更介绍视频</p>
+</blockquote>
+
+<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=560519612&amp;bvid=BV1Fe4y187dX&amp;cid=833111089&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+
+<blockquote><p>按键修改教程</p>
+</blockquote>
+
+<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=687482097&amp;bvid=BV1XU4y167n5&amp;cid=816485353&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+
+<blockquote><p>灯效调整教程</p>
+</blockquote>
+
+<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=472447452&amp;bvid=BV17T411F7N7&amp;cid=816484844&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+
+<blockquote><p>FN设置教程</p>
+</blockquote>
+
+<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=557422640&amp;bvid=BV17e4y1Z72B&amp;cid=816483772&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+
+<blockquote><p>宏设置教程</p>
+</blockquote>
+
+<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=644941147&amp;bvid=BV1EY4y1u7Rm&amp;cid=816485731&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>]]></content>
+  </entry>
+  <entry>
+    <title>【必看】VIA识别方法（驱动安装）</title>
+    <url>/posts/55414/</url>
+    <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=291073109&amp;bvid=BV1Tf4y187uj&amp;cid=351390199&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+
+<blockquote><h3 id="V1-8是大功率板子，灯多，使用笔记本可能某些口带不起来，需要换USB口或者换线后尝试-备注：建议按如下步骤逐一操作，识别进入软件后可不再进行后续操作"><a href="#V1-8是大功率板子，灯多，使用笔记本可能某些口带不起来，需要换USB口或者换线后尝试-备注：建议按如下步骤逐一操作，识别进入软件后可不再进行后续操作" class="headerlink" title="V1.8是大功率板子，灯多，使用笔记本可能某些口带不起来，需要换USB口或者换线后尝试 备注：建议按如下步骤逐一操作，识别进入软件后可不再进行后续操作"></a>V1.8是大功率板子，灯多，使用笔记本可能某些口带不起来，需要换USB口或者换线后尝试 <br><br>备注：建议按如下步骤逐一操作，识别进入软件后可不再进行后续操作</h3></blockquote>
+
+<h3 id="方法一："><a href="#方法一：" class="headerlink" title="方法一："></a>方法一：</h3><ul>
+<li>插上线，先到 <strong>[控制面板]-[设备与打印机]</strong> (注意不要去设备管理器)中查看有没有mokey字样设备，如果有，继续进行下面步骤，没有的话，又正好是笔记本，需要换口/换线，或者干脆更换台式机测试，V1.8是大功率板子，笔记本供电能力有限，灯默认是最亮状态，笔记本供电不足会直接带不起来</li>
+<li>总之需要先在 <strong>[控制面板]-[设备与打印机]</strong> (注意不要去设备管理器)里看到设备，这是先决条件，这里有设备了，才可以说识别的事情<img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN01Ja68FT1DLe3LBrnsu_!!2209611180200.jpg"></li>
+<li>PCB连接上电脑后，若VIA没有自动识别进入界面，需要检查电脑上的VIA版本，1.3.1有可能识别不了(VIA更新导致)，可打开VIA在线版<a href="https://usevia.app/#/">点击进入</a>，若可以进入，可观看此视频了解具体情况<a href="https://www.bilibili.com/video/BV1Fe4y187dX/?vd_source=0903d7064bdadf3b9a362ac11be22345">点击进入</a></li>
+</ul>
+<blockquote><p><strong>若使用的是2.0.5新版，不必往下进行，要是1.3.1版本需要继续往下看</strong>，最后如果发现1.3.1就是进不去，那么<a href="https://www.bilibili.com/video/BV1Fe4y187dX/?vd_source=0903d7064bdadf3b9a362ac11be22345">视频</a>也说了，这是VIA更新带来的问题，是无法解决的，直接下载2.0.5新版使用就可以了</p>
+</blockquote>
+<h3 id="方法二："><a href="#方法二：" class="headerlink" title="方法二："></a>方法二：</h3><p>1.重启电脑<br>2.进入桌面后先关闭电脑上一切 <a href="">杀毒软件</a> 以免杀毒软件阻挡驱动安装，可以正常识别进入VIA后杀毒软件可以正常使用<br>3.之后运行 <a href="https://mokey.lanzoui.com/iw0aWpbze5a">VIA识别驱动</a> （可提前下载到电脑上）<br><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01w6l3i31DLe3KA5FVu_!!2209611180200.jpg"></p>
+<blockquote><p>分别点击驱动文件夹下的这两个<a href="">“.bat”</a>格式的文件，待黑色对话框执行完毕后会自动关闭窗口(注意不可手动关闭)</p>
+</blockquote>
+
+<h3 id="方法三："><a href="#方法三：" class="headerlink" title="方法三："></a>方法三：</h3><p>如果执行 <a href="">方法二</a> 的时候出现下列提示，也是安装不上识别驱动的，需要按步骤关闭 <a href="">用户账户控制设置</a> 后再重新安装驱动</p>
+<img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN012ebEvr1DLe3GMOE3C_!!2209611180200.jpg">
+
+<p>关闭 <a href="">用户账户控制设置</a> 方法（以Win10为例）：<br><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01iYWs421DLe3Ndkgd3_!!2209611180200.jpg"></p>
+<blockquote><p>WinXP系统不能使用VIA，必须使用Win7及以上64位操作系统，32位操作系统会报错，必须安装驱动才可识别VIA，Mokey全系列产品均可以直接识别并进入VIA界面，无需JSON引导文件。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>【必看】按键设置方法</title>
+    <url>/posts/17032/</url>
+    <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=687482097&amp;bvid=BV1XU4y167n5&amp;cid=816485353&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+]]></content>
+  </entry>
+  <entry>
+    <title>【必看】FN按键功能设置</title>
+    <url>/posts/37564/</url>
+    <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=557422640&amp;bvid=BV17e4y1Z72B&amp;cid=816483772&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+]]></content>
+  </entry>
+  <entry>
+    <title>【必看】灯效调整（按键控制）</title>
+    <url>/posts/61522/</url>
+    <content><![CDATA[<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+    <iframe src="//player.bilibili.com/player.html?aid=472447452&amp;bvid=BV17T411F7N7&amp;cid=816484844&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false" style="position:absolute; height: 100%; width: 100%;"></iframe>
+</div>
+]]></content>
+  </entry>
+  <entry>
+    <title>【必看】固件刷写教程(升级固件或更换固件)</title>
+    <url>/posts/15924/</url>
+    <content><![CDATA[<blockquote><p>这里的<strong>驱动</strong>是指芯片运行的程序，不要混淆</p>
+</blockquote>
+
+<p>1.下载QMK Toolbox<br>  Windows：<a href="https://mokey.lanzoui.com/i76Ecpbzfpg">点击下载</a><br>  Mac OS：<a href="https://mokey.lanzoui.com/ip5Dopbzeza">点击下载</a></p>
+<p>2.安装QMK Toolbox<br>  Windows下安装：解压至任意目录后打开，会提示install driver，一定要选择 <a href="">确定</a> 或者 <a href="">Yes</a> 即可安装！<br><a href="">！Windows第一次刷固件必须安装驱动！</a><br><a href="">！Windows第一次刷固件必须安装驱动！</a><br><a href="">！Windows第一次刷固件必须安装驱动！</a><br>否则刷入固件时出现如下提示：“dfu-programmer：no device present）”如下图<br><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01NDKheP1DLe3NfYSuc_!!2209611180200.jpg"></p>
+<p>3.若要是错过安装QMK Toolbox软件的驱动程序，可以单独下载下面的芯片驱动来安装，<strong>不安装此驱动无法刷固件！</strong><br>  <strong><a href="https://mokey.lanzoui.com/iw0aWpbze5a">芯片驱动</a></strong><br>  <a href="../../posts/55414/index.html">驱动安装方法</a> </p>
+<h3 id="刷写方法一：如果可以正常进入VIA或因外壳原因不方便按PCB背面按钮时请使用此方法"><a href="#刷写方法一：如果可以正常进入VIA或因外壳原因不方便按PCB背面按钮时请使用此方法" class="headerlink" title="刷写方法一：如果可以正常进入VIA或因外壳原因不方便按PCB背面按钮时请使用此方法"></a>刷写方法一：如果可以正常进入VIA或因外壳原因不方便按PCB背面按钮时请使用此方法</h3><p>1.设置一个按键为“复位”作用，图中以ESC键为例:<br><img src="https://img.alicdn.com/imgextra/i4/2209611180200/O1CN01NwBihC1DLe3DHDhXl_!!2209611180200.jpg"><br>2.按下列操作后，按下ESC键位上临时作为“复位”作用的按键，之后QMK Toolbox会自动刷好固件<br><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01eZiJ7X1DLe3Dxy2GH_!!2209611180200.jpg"><br><img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN01UMb1rh1DLe3KCNdsi_!!2209611180200.jpg"></p>
+<h3 id="刷写方法二：键盘不能正常进入VIA的刷入方法"><a href="#刷写方法二：键盘不能正常进入VIA的刷入方法" class="headerlink" title="刷写方法二：键盘不能正常进入VIA的刷入方法"></a>刷写方法二：键盘不能正常进入VIA的刷入方法</h3><img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN014fZfUm1DLe3DHDhY1_!!2209611180200.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN01UMb1rh1DLe3KCNdsi_!!2209611180200.jpg">
+
+]]></content>
+  </entry>
+  <entry>
+    <title>【必看】保存按键配置</title>
+    <url>/posts/59222/</url>
+    <content><![CDATA[<blockquote><p>此功能的作用是 <a href="">备份/恢复</a> 用户按键设置<br>客制化键盘拥有多层设置按键，每次都逐一设置按键会非常繁琐，此功能相当与一键保存和一键恢复作用。</p>
+</blockquote>
+
+<h3 id="界面说明"><a href="#界面说明" class="headerlink" title="界面说明"></a>界面说明</h3><img src="https://img.alicdn.com/imgextra/i4/2209611180200/O1CN011aDk541DLe3HmzEZo_!!2209611180200.jpg">
+1.保存：保存现有VIA中的按键设置，并生成JSON文件
+2.加载：加载JSON文件即可恢复设置
+
+<p>JSON文件可设置中文，<a href="">“.json”</a> 不可省略</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>默认按键（一键还原设置）</title>
+    <url>/posts/40342/</url>
+    <content><![CDATA[<blockquote><p>此功能的作用是 <a href="">一键恢复默认按键设置</a>，还原方法请参考<a href="../../posts/59222/index.html">这个教程</a></p>
+</blockquote>
+<h3 id="默认按键文件下载"><a href="#默认按键文件下载" class="headerlink" title="默认按键文件下载"></a>默认按键文件下载</h3><p><a href="https://mokey.lanzouw.com/iHPvhyp8lha">点此下载</a></p>
+<h3 id="按键设置说明"><a href="#按键设置说明" class="headerlink" title="按键设置说明"></a>按键设置说明</h3><img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01Dbv9EJ1DLe3G3pGVo_!!2209611180200.jpg">
+]]></content>
+  </entry>
+  <entry>
+    <title>使用教程</title>
+    <url>/posts/52828/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
