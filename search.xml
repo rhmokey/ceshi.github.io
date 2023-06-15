@@ -271,4 +271,27 @@
     <url>/posts/52828/</url>
     <content><![CDATA[]]></content>
   </entry>
+  <entry>
+    <title>【必看】固件刷写教程(升级固件或更换固件)</title>
+    <url>/posts/1/</url>
+    <content><![CDATA[<blockquote><p>Mokey12x2采用的是<strong>U盘升级</strong>的方式，操作非常简单，只需要把键盘调整到<strong>刷机模式</strong>，此时电脑会出现一个<strong>虚拟的U盘</strong>，之后把新的固件拖进这个<strong>虚拟的U盘</strong>后，键盘会重新启动，启动完毕即升级/更换完毕</p>
+</blockquote>
+
+<h3 id="让键盘进入刷机模式的几个方法"><a href="#让键盘进入刷机模式的几个方法" class="headerlink" title="让键盘进入刷机模式的几个方法"></a>让键盘进入刷机模式的几个方法</h3><p>方法一：<br>在键盘上临时设置一个<strong>Reset</strong>按键，设置好了以后按一次就可以进入<strong>刷机模式</strong>，方法如下：<br> <img src="https://img.alicdn.com/imgextra/i3/2209611180200/O1CN01mUraSE1DLe3zjJZip_!!2209611180200.gif"></p>
+<p>方法二：<br>按住第一个按键，拔插一次USB线就可以进入<strong>刷机模式</strong>，方法如下：<br> <img src="https://img.alicdn.com/imgextra/i4/2209611180200/O1CN01xVp3DE1DLe41FV00a_!!2209611180200.jpg"></p>
+<p>方法三：<br>按一次键盘背面的重置按钮<br> <img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01hanoZp1DLe40nOrES_!!2209611180200.jpg"></p>
+<blockquote><p>键盘调整到<strong>刷机模式</strong>，同时电脑会出现一个<strong>虚拟的U盘</strong>，之后把新的固件拖进这个<strong>虚拟的U盘</strong>后，键盘会重新启动，启动完毕即升级/更换完毕</p>
+</blockquote>
+ <img src="https://img.alicdn.com/imgextra/i4/2209611180200/O1CN01vi2ChM1DLe42LGXMp_!!2209611180200.gif">
+]]></content>
+  </entry>
+  <entry>
+    <title>Mokey12×2默认按键</title>
+    <url>/posts/2/</url>
+    <content><![CDATA[<blockquote><p>此功能的作用是 <a href="">一键恢复默认按键设置</a>，还原方法请参考<a href="../../posts/59222/index.html">这个教程</a></p>
+</blockquote>
+<h3 id="默认按键文件下载"><a href="#默认按键文件下载" class="headerlink" title="默认按键文件下载"></a>默认按键文件下载</h3><p><a href="https://mokey.lanzouw.com/iDz7J0z7f8ij">点此下载</a></p>
+<h3 id="按键设置说明"><a href="#按键设置说明" class="headerlink" title="按键设置说明"></a>按键设置说明</h3> <img src="https://img.alicdn.com/imgextra/i2/2209611180200/O1CN01CHyxEp1DLe3vqyTAX_!!2209611180200.jpg">
+]]></content>
+  </entry>
 </search>
